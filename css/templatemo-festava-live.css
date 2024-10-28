@@ -505,7 +505,7 @@ strong {
   ABOUT              
 -----------------------------------------*/
 .about-section {
-  background-image: url('../images/image.jpg');
+  background-image: url('../assets/images/image.jpg');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
