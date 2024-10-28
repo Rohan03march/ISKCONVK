@@ -277,8 +277,172 @@ https://templatemo.com/tm-583-festava-live
                     <div class="row">
 
                         <div class="col-12 text-center">
-                            <h2 class="text-white mb-4">Temple Schedule</h1>
-
+                            <h2 class="text-black mb-4">Temple Schedule</h1>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div id="content">
+                                                        <ul class="timeline">
+                                                            <li class="event" data-date="4:30am - 9:00am">
+                                                                <h3>Morning</h3>
+                                                               <p><b style="color: black;">4:30am – 4:45am </b> : Mangalarati <br/>4:45am – 4:50am : Narasimha Kirtan <br/>
+                                                                <b style="color: black;">4:50am - 7:15am </b>: Tulasi Puja and Hare Krishna Maha Mantra Meditation (Altar is closed) <br/>
+                                                               <b style="color: black;"> 7:15am – 7:20am </b>: Arati in Sri Sri Radha Krishna Chandra temple <br/>
+                                                                <b style="color: black;">7:30am – 7:35am</b> : Arati In Sri Rajadhi Raja Govinda temple <br/>
+                                                                <b style="color: black;">7:40am – 7:45am </b>: Arati in Sri Sri Sudarshana Narasimha temple <br/>
+                                                               <b style="color: black;"> 7:45am – 7:50am</b> : Arati in Smt Rajalakshmi Padmavati temple <br/>
+                                                                 <b style="color: black;"> 7:50am – 7:55am</b> : Arati in Sri Sri Lakshmi Narsimha temple <br/>
+                                                                   <b style="color: black;"> 7:55am – 8:10am</b> : Guru Puja <br/>
+                                                                   <b style="color: black;"> 8:20am – 9:00am</b> : Srimad Bhagavatam Class
+                                                            </p>
+                                                            </li>
+                                                            <li class="event" data-date="12:00pm - 5:45pm">
+                                                                <h3>Afternoon</h3>
+                                                                <p>
+                                                                    <b style="color: black;">12:00pm – 12:20pm</b> : Raj Bhog Offering (Altar is closed during this time) <br/>
+                                                                    <b style="color: black;">12:25pm – 12:40pm </b>: Raj Bhog Arati <br/>
+                                                                    <b style="color: black;">01:00pm</b> : Altar closes <br/>
+                                                                    <b style="color: black;">1:00pm – 4:15pm</b>: Temple is closed <br/>
+                                                                    <b style="color: black;">4:15pm – 4:30pm</b>	: Dhup Arati <br/>
+                                                                    <b style="color: black;">5:30pm – 5:45pm</b>	: Bhoga Offering  (Altar is closed during this time)
+                                                                </p>
+                                                            </li>
+                                                            <li class="event" data-date="6:45pm - 8:30pm">
+                                                                <h3>Evening</h3>
+                                                                <p>
+                                                                   <b style="color: black;"> 6:45pm – 6:55pm </b>: Tulasi Puja <br/>
+                                                                   <b style="color: black;"> 7:00pm – 7:20pm</b> : Sandhya Arati in Sri RadhaKrishna Temple<br/>
+                                                                   <b style="color: black;"> 7:25pm – 8:00pm </b>: Bhagavad Gita class<br/>
+                                                                   <b style="color: black;"> 7:50pm – 8:00pm </b>: Bhoga offering (Altar is closed during this time)<br/>
+                                                                   <b style="color: black;"> 8:00pm – 8:10pm </b>: Shayana Arati<br/>
+                                                                   <b style="color: black;"> 8:30pm </b>: Altar closes
+                                                                </p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <style>
+                                    .timeline {
+                                        border-left: 3px solid #727cf5;
+                                        border-bottom-right-radius: 4px;
+                                        border-top-right-radius: 4px;
+                                        background: rgba(114, 124, 245, 0.09);
+                                        margin: 0 auto;
+                                        letter-spacing: 0.2px;
+                                        position: relative;
+                                        line-height: 1.4em;
+                                        font-size: 1.03em;
+                                        padding: 50px;
+                                        list-style: none;
+                                        text-align: left;
+                                        max-width: 40%;
+                                    }
+                                    
+                                    @media (max-width: 767px) {
+                                        .timeline {
+                                            max-width: 98%;
+                                            padding: 25px;
+                                        }
+                                    }
+                                    
+                                    .timeline h1 {
+                                        font-weight: 300;
+                                        font-size: 1.4em;
+                                    }
+                                    
+                                    .timeline h2,
+                                    .timeline h3 {
+                                        font-weight: 600;
+                                        font-size: 1rem;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .timeline .event {
+                                        border-bottom: 1px dashed #e8ebf1;
+                                        padding-bottom: 25px;
+                                        margin-bottom: 25px;
+                                        position: relative;
+                                    }
+                                    
+                                    @media (max-width: 767px) {
+                                        .timeline .event {
+                                            padding-top: 30px;
+                                        }
+                                    }
+                                    
+                                    .timeline .event:last-of-type {
+                                        padding-bottom: 0;
+                                        margin-bottom: 0;
+                                        border: none;
+                                    }
+                                    
+                                    .timeline .event:before,
+                                    .timeline .event:after {
+                                        position: absolute;
+                                        display: block;
+                                        top: 0;
+                                    }
+                                    
+                                    .timeline .event:before {
+                                        left: -207px;
+                                        content: attr(data-date);
+                                        text-align: right;
+                                        font-weight: 100;
+                                        font-size: 0.9em;
+                                        min-width: 120px;
+                                    }
+                                    
+                                    @media (max-width: 767px) {
+                                        .timeline .event:before {
+                                            left: 0px;
+                                            text-align: left;
+                                        }
+                                    }
+                                    
+                                    .timeline .event:after {
+                                        -webkit-box-shadow: 0 0 0 3px #727cf5;
+                                        box-shadow: 0 0 0 3px #727cf5;
+                                        left: -55.8px;
+                                        background: #fff;
+                                        border-radius: 50%;
+                                        height: 9px;
+                                        width: 9px;
+                                        content: "";
+                                        top: 5px;
+                                    }
+                                    
+                                    @media (max-width: 767px) {
+                                        .timeline .event:after {
+                                            left: -31.8px;
+                                        }
+                                    }
+                                    
+                                    .rtl .timeline {
+                                        border-left: 0;
+                                        text-align: right;
+                                        border-bottom-right-radius: 0;
+                                        border-top-right-radius: 0;
+                                        border-bottom-left-radius: 4px;
+                                        border-top-left-radius: 4px;
+                                        border-right: 3px solid #727cf5;
+                                    }
+                                    
+                                    .rtl .timeline .event::before {
+                                        left: 0;
+                                        right: -170px;
+                                    }
+                                    
+                                    .rtl .timeline .event::after {
+                                        left: 0;
+                                        right: -55.8px;
+                                    }
+                                </style>
                         </div>
                     </div>
                 </div>
