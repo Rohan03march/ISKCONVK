@@ -23,6 +23,15 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-festava-live.css" rel="stylesheet">
+        <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+
+
         
 <!--
 
@@ -453,18 +462,186 @@ https://templatemo.com/tm-583-festava-live
                 <div class="container">
                     <div class="row">
 
-                        <div class="col-lg-8 col-12 mx-auto">
-                            <h2 class="text-center mb-4">How To Reach?</h2>
-                            <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel" aria-labelledby="nav-ContactForm-tab">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3889.2268755475393!2d77.549192!3d12.893128!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fe894bc67a9%3A0x32672afab6f79657!2sISKCON%20Vaikuntha%20Hill!5e0!3m2!1sen!2sin!4v1730140812448!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-lg-8 col-12 mx-auto text-center">
+                            <h2 class="mb-4">How To Reach?</h2>
+                            <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel" aria-labelledby="nav-ContactForm-tab">
+                                <div class="iframe-container">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.225969099668!2d77.54728322383353!3d12.893186337414988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fe8c226c80b%3A0x7bc1fff78687543!2sVaikunta%20Hill%2C%20Vasanthapura%2C%20Subramanyapura%2C%20Bengaluru%2C%20Karnataka%20560061!5e0!3m2!1sen!2sin!4v1730186616412!5m2!1sen!2sin" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
+                            <style>
+                                .iframe-container {
+                                    display: flex; /* Enable flexbox */
+                                    justify-content: center; /* Center horizontally */
+                                    align-items: center; /* Center vertically */
+                                    margin: 20px 0; /* Add some vertical spacing */
+                                    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+                                    max-width: 100%; /* Ensure it doesn't exceed its parent container */
+                                    padding: 10px; /* Optional: Add some padding */
+                                }   
+                            </style>
                         </div>
+                        
 
                     </div>
                 </div>
             </section>
+
+            <!-- testimonials-->
+            <div class="test">
+                <div class="section__container">
+                  <div class="header">
+                    <h1>What our Devotees say about us.</h1>
+                  </div>
+                  <div class="testimonials__grid">
+                    <div class="card">
+                      <span><i class="ri-double-quotes-l"></i></span>
+                      <img src="./assets/images/unnamed.png" alt="user" />
+                      <p class="name">GEETHA_DR</p>
+                      <hr />
+                      <p>
+                        ISKCON Temple is such a peaceful and beautiful place. The architecture is truly impressive, and the calm atmosphere makes it ideal for meditation or just taking a moment to reflect. <br/>
+                        Everything is kept so clean and well-organized, which really adds to the whole spiritual experience. Definitely a must-visit if you're looking for some peace and quiet.
+                      </p>
+                    </div>
+                    <div class="card">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <img src="./assets/images/unnamed (1).png" alt="user" />
+                        <p class="name">Balasubramanian N</p>
+                        <hr />
+                        <p>
+                            A divine place, Once you enter we are completely taken over by divinity. Place was very well maintained.
+                            Ample parking is available. There is a big kitchen at the base where quality food is being prepared and sent to government schools on a daily basis. What a great service. Annadhanam is the Supreme dhanam.
+                            Overall a must visit place.
+                        </p>
+                      </div>
+                      <div class="card">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <img src="./assets/images/unnamed (2).png" alt="user" />
+                        <p class="name">Harinakshi Gowda</p>
+                        <hr />
+                        <p>
+                            Wow just amazing temple I visited during Janmashtami they have well maintained everything and temple is just very big it literally looks like entering Tirumala and Rajaji raja govinda and Radha Krishna with subhadra and Balaram gives a positive vibe. <br/>
+                            Definitely a must-visit if you're looking for some peace.
+                        </p>
+                      </div>
+                  </div>
+                </div>
+                <style>
+            
+                    @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Poppins:wght@400;500;600&display=swap");
+                  
+                  :root {
+                    --primary-color: #1a2c50;
+                    --secondary-color: #f4f7fe;
+                    --text-dark: #333333;
+                    --text-light: #767268;
+                    --extra-light: #ffffff;
+                  }
+                  
+                  .test {
+                    /* font-family: 'Noto Serif', serif; */
+                    font-family: "Outfit", sans-serif;
+                    color: var(--primary-color);
+                    min-height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                  }
+                  
+                  .section__container {
+                    width: 100%;
+                    max-width: 1200px;
+                    margin: auto;
+                    padding: 1rem;
+                    text-align: center;
+                  }
+                  
+                  .header {
+                    margin-bottom: 2rem;
+                  }
+                  
+                  .header p {
+                    letter-spacing: 2px;
+                    font-size: 1rem;
+                    font-weight: 500;
+                  }
+                  
+                  .header h1 {
+                    font-family: "0utfit", sans-serif;
+                    font-size: 2rem;
+                    font-weight: 900;
+                    color:black
+                  }
+                  
+                  .testimonials__grid {
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 2rem;
+                    margin-bottom: 2rem;
+                  }
+                  
+                  .card {
+                    padding: 1rem;
+                    display: grid;
+                    gap: 1rem;
+                    background-color: var(--extra-light);
+                    border-radius: 5px;
+                    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+                    cursor: pointer;
+                  }
+                  
+                  .card i {
+                    font-size: 2.5rem;
+                    color: gold;
+                  }
+                  
+                  .card p {
+                    font-size: 1rem;
+                    font-weight: 500;
+                  }
+                  
+                  .card hr {
+                    width: 40px;
+                    margin: auto;
+                    color: var(--text-light);
+                  }
+                  
+                  .card img {
+                    width: 60px;
+                    height: 60px;
+                    margin: auto;
+                    border-radius: 100%;
+                    border: 1px solid var(--primary-color);
+                  }
+                  
+                  .card .name {
+                    font-size: 0.9rem;
+                    font-weight: 400;
+                    color: var(--text-light);
+                    transition: 0.3s;
+                  }
+                  
+                  .card .name:hover {
+                    color: var(--primary-color);
+                  }
+                  @media (width < 900px) {
+                    .testimonials__grid {
+                      grid-template-columns: repeat(2, 1fr);
+                      gap: 1rem;
+                    }
+                  }
+                  
+                  @media (width < 600px) {
+                    .testimonials__grid {
+                      grid-template-columns: repeat(1, 1fr);
+                    }
+                  }
+                  </style>
+              </div>
 
         </main>
     <footer class="text-center text-lg-start" style="background-color: #db6930;">
@@ -486,3 +663,4 @@ https://templatemo.com/tm-583-festava-live
 
     </body>
 </html>
+
