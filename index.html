@@ -290,7 +290,7 @@ https://templatemo.com/tm-583-festava-live
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <div class="card">
+                                            <div class="timeline-card">
                                                 <div class="card-body">
                                                     <div id="content">
                                                         <ul class="timeline">
@@ -351,6 +351,13 @@ https://templatemo.com/tm-583-festava-live
                                         list-style: none;
                                         text-align: left;
                                         max-width: 40%;
+                                    }
+                                    .timeline-card {
+                                        background-color:rgba(255, 255, 255, 0.85);
+                                        padding: 1rem;
+                                       border-radius: 20px;
+                                       width: 100%;
+                                       margin: 0 auto;
                                     }
                                     
                                     @media (max-width: 767px) {
@@ -461,31 +468,28 @@ https://templatemo.com/tm-583-festava-live
             <section class="contact-section section-padding" id="section_5">
                 <div class="container">
                     <div class="row">
-
                         <div class="col-lg-8 col-12 mx-auto text-center">
                             <h2 class="mb-4">How To Reach?</h2>
-                            <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel" aria-labelledby="nav-ContactForm-tab">
-                                <div class="iframe-container">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.225969099668!2d77.54728322383353!3d12.893186337414988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fe8c226c80b%3A0x7bc1fff78687543!2sVaikunta%20Hill%2C%20Vasanthapura%2C%20Subramanyapura%2C%20Bengaluru%2C%20Karnataka%20560061!5e0!3m2!1sen!2sin!4v1730186616412!5m2!1sen!2sin" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                </div>
-                            </div>
-                            <style>
-                                .iframe-container {
-                                    display: flex; /* Enable flexbox */
-                                    justify-content: center; /* Center horizontally */
-                                    align-items: center; /* Center vertically */
-                                    margin: 20px 0; /* Add some vertical spacing */
-                                    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
-                                    max-width: 100%; /* Ensure it doesn't exceed its parent container */
-                                    padding: 10px; /* Optional: Add some padding */
-                                }   
-                            </style>
                         </div>
-                        
-
                     </div>
                 </div>
+                <div class="iframe-container" style="text-align: center;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.225969099668!2d77.54728322383353!3d12.893186337414988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fe8c226c80b%3A0x7bc1fff78687543!2sVaikunta%20Hill%2C%20Vasanthapura%2C%20Subramanyapura%2C%20Bengaluru%2C%20Karnataka%20560061!5e0!3m2!1sen!2sin!4v1730186616412!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <style>
+                    .iframe-container {
+                        text-align: center; /* Centering the iframe */
+                        margin: 20px auto; /* Add some vertical spacing */
+                    }
+                    iframe {
+                        width: 90%; /* Adjust the width as needed */
+                        height: 600px; /* Set the height */
+                        display: inline-block; /* Ensures the iframe is treated as a block-level element */
+                        border-radius: 20px;
+                    }
+                </style>
             </section>
+            
 
             <!-- testimonials-->
             <div class="test">
