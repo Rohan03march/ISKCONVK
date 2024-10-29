@@ -698,6 +698,19 @@ https://templatemo.com/tm-583-festava-live
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
+        <script>
+            // Disable right-click context menu
+            document.addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+            });
+    
+            // Disable F12 and Ctrl+Shift+I
+            document.onkeydown = function(e) {
+                if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+                    e.preventDefault();
+                }
+            };
+        </script>
 
     </body>
 </html>
