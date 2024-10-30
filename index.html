@@ -27,6 +27,7 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     
@@ -525,160 +526,464 @@ https://templatemo.com/tm-583-festava-live
             </section>
 
             <!-- testimonials-->
-            <div class="test">
-                <div class="section__container">
-                  <div class="header">
-                    <h1>What our Visitors say about us.</h1>
-                  </div>
-                  <div class="testimonials__grid">
-                    <div class="card">
-                      <span><i class="ri-double-quotes-l"></i></span>
-                      <img src="./assets/images/unnamed.png" alt="user" />
-                      <p class="name">GEETHA_DR</p>
-                      <hr />
-                      <p>
-                        ISKCON Temple is such a peaceful and beautiful place. The architecture is truly impressive, and the calm atmosphere makes it ideal for meditation or just taking a moment to reflect. <br/>
-                        Everything is kept so clean and well-organized, which really adds to the whole spiritual experience. Definitely a must-visit if you're looking for some peace and quiet.
-                      </p>
-                    </div>
-                    <div class="card">
-                        <span><i class="ri-double-quotes-l"></i></span>
-                        <img src="./assets/images/unnamed (1).png" alt="user" />
-                        <p class="name">Balasubramanian N</p>
-                        <hr />
-                        <p>
-                            A divine place, Once you enter we are completely taken over by divinity. Place was very well maintained.
-                            Ample parking is available. There is a big kitchen at the base where quality food is being prepared and sent to government schools on a daily basis. What a great service. Annadhanam is the Supreme dhanam.
-                            Overall a must visit place.
-                        </p>
-                      </div>
-                      <div class="card">
-                        <span><i class="ri-double-quotes-l"></i></span>
-                        <img src="./assets/images/unnamed (2).png" alt="user" />
-                        <p class="name">Harinakshi Gowda</p>
-                        <hr />
-                        <p>
-                            Wow just amazing temple I visited during Janmashtami they have well maintained everything and temple is just very big it literally looks like entering Tirumala and Rajaji raja govinda and Radha Krishna with subhadra and Balaram gives a positive vibe. <br/>
-                            Definitely a must-visit if you're looking for some peace.
-                        </p>
-                      </div>
-                  </div>
-                </div>
-                <style>
+            <section class="artists-section" style="padding-top: 30px;" id="section_4">
+                <div class="container">
+                    <div class="row justify-content-center">
             
-                    @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Poppins:wght@400;500;600&display=swap");
-                  
-                  :root {
-                    --primary-color: #1a2c50;
-                    --secondary-color: #f4f7fe;
-                    --text-dark: #333333;
-                    --text-light: #767268;
-                    --extra-light: #ffffff;
-                  }
-                  
-                  .test {
-                    /* font-family: 'Noto Serif', serif; */
-                    font-family: "Outfit", sans-serif;
-                    color: var(--primary-color);
-                    min-height: 100vh;
-                    display: flex;
-                    align-items: center;
-                    padding: 0;
-                    margin: 0;
-                    box-sizing: border-box;
-                  }
-                  
-                  .section__container {
-                    width: 100%;
-                    max-width: 1200px;
-                    margin: auto;
-                    padding: 1rem;
-                    text-align: center;
-                  }
-                  
-                  .header {
-                    margin-bottom: 2rem;
-                  }
-                  
-                  .header p {
-                    letter-spacing: 2px;
-                    font-size: 1rem;
-                    font-weight: 500;
-                  }
-                  
-                  .header h1 {
-                    font-family: "0utfit", sans-serif;
-                    font-size: 2rem;
-                    font-weight: 900;
-                    color:black
-                  }
-                  
-                  .testimonials__grid {
-                    width: 100%;
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    gap: 2rem;
-                    margin-bottom: 2rem;
-                  }
-                  
-                  .card {
-                    padding: 1rem;
-                    display: grid;
-                    gap: 1rem;
-                    background-color: var(--extra-light);
-                    border-radius: 5px;
-                    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-                    cursor: pointer;
-                  }
-                  
-                  .card i {
-                    font-size: 2.5rem;
-                    color: gold;
-                  }
-                  
-                  .card p {
-                    font-size: 1rem;
-                    font-weight: 500;
-                  }
-                  
-                  .card hr {
-                    width: 40px;
-                    margin: auto;
-                    color: var(--text-light);
-                  }
-                  
-                  .card img {
-                    width: 60px;
-                    height: 60px;
-                    margin: auto;
-                    border-radius: 100%;
-                    border: 1px solid var(--primary-color);
-                  }
-                  
-                  .card .name {
-                    font-size: 0.9rem;
-                    font-weight: 400;
-                    color: var(--text-light);
-                    transition: 0.3s;
-                  }
-                  
-                  .card .name:hover {
-                    color: var(--primary-color);
-                  }
-                  @media (width < 900px) {
-                    .testimonials__grid {
-                      grid-template-columns: repeat(2, 1fr);
-                      gap: 1rem;
-                    }
-                  }
-                  
-                  @media (width < 600px) {
-                    .testimonials__grid {
-                      grid-template-columns: repeat(1, 1fr);
-                    }
-                  }
-                  </style>
-              </div>
+                        <div class="col-12 text-center">
+                            <h2 class="mb-4">What our Visitors say about us.</h2>
+                        </div>
+                        <div class="test">
+                            <section>
+                          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+                            <div class="testimonials-carousel-wrap">
+                                <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right" style="color: #fff"></i></div>
+                                <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left" style="color: #fff"></i></div>
+                                <div class="testimonials-carousel">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed (1).png"></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>" A divine place.Once you enter we are completely taken over by divinity. Place was very well maintained.
+                                                            Ample parking is available. There is a big kitchen at the base where quality food is being prepared and sent to government schools on a daily basis. What a great service.
+                                                            Annadhanam is the Supreme dhanam. Overall a must visit place."
+                                                        </p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>Balasubramanian N</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+                                            <!--third-->
+                        
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed (3).png"></div>
+                                                    <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>"Visited this beautiful place for second time. I lost myself there from entry to exit . The atmosphere was filled with Krishna’s consciousness.Enjoyed nama sankiratana with many krishna devotees. A must
+                                                            visit place in namma bengaluru. Visit during evening to enjoy the city view from the top.Hare krishna🙏🏻"    </p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>Ranjan</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+                                            <!--fourth-->
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed (4).png"></div>
+                                                    <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>"One of the best ISKCON temples, because of it being on a height the view below is very pretty! The Balaji Idol inside the temple is mesmerising. There is Prasadam at all times! Worth spending an hour or two in the serene calmness inside the premises."</p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>Sneha Kesarkar</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+
+                                            <!--Fifth-->
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed (6).png"></div>
+                                                    <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>"ISKON Venkateshwara Hill in Bangalore is a serene retreat offering breathtaking city views. The temple's modern architecture blends seamlessly with traditional Hindu motifs. The peaceful ambiance and the divine presence of Lord Venkateshwara create a truly spiritual experience. A must-visit for those seeking solace and spiritual connection."</p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>ABHISHEK K V</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+
+                                            <!--Sixth-->
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed (9).png"></div>
+                                                    <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>"The temple is so peaceful and has such a beautiful view.
+                                                            It also has a meditation room where we can chant mantras.
+                                                            The temple has parking, shoe storage and other facilities."</p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>Urvashi</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+                                            <!--second--->
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed (2).png"></div>
+                                                    <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>"Wow just amazing temple I visited during Janmashtami they have well maintained everything and temple is just very big it literally looks like entering Tirumala and Rajaji raja govinda and Radha Krishna with subhadra and Balaram gives a positive vibe"</p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>Harinakshi Gowda</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+                                            <!--testi end-->
+                        
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="tc-pagination"></div>
+                            </div>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                          <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+                        </section>
+                        <style>
+                          @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+                        
+                        .test{
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                        }
+                        
+                        section{
+                            float: left;
+                            position: relative;
+                            padding: 30px 0;
+                            background: #fcfcfd;
+                            z-index: 1;
+                            width: 100%;
+                        }
+                        .section-title{
+                            float: left;
+                            position: relative;
+                            width: 100%;
+                            padding-bottom: 40px; 
+                        }
+                        .section-title p{
+                            color: #7d93b2;
+                            font-size: 13px;
+                            line-height: 20px;
+                            max-width: 550px;
+                            margin: 0 auto;
+                        }
+                        .section-title h2 {
+                            float: left;
+                            width: 100%;
+                            text-align: center;
+                            color: #007aff;
+                            font-size: 34px;
+                            font-weight: 800;
+                            position: relative;
+                        }
+                        .section-separator {
+                            float: left;
+                            width: 100%;
+                            position: relative;
+                            margin: 20px 0;
+                        }
+                        .section-separator:before{
+                            content: '';
+                            position: absolute;
+                            left: 50%;
+                            top: 0;
+                            height: 3px;
+                            width: 50px;
+                            border-radius: 3px;
+                            z-index: 2;
+                            background-color: #007aff;
+                            margin-left: -25px;
+                        }
+                        .swiper-container {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .listing-carousel-button{
+                            position: absolute;
+                            top: 50%;
+                            width: 80px;
+                            height: 50px;
+                            line-height: 50px;
+                            margin-top: -25px;
+                            z-index: 100;
+                            cursor: pointer;
+                            background: #007aff;
+                            box-shadow: 0 9px 26px rgba(58, 87,135,0.45);
+                            transition: all 200ms linear;
+                            outline: none;
+                        }
+                        .listing-carousel-button.listing-carousel-button-next{
+                            right: -30px;
+                            border-radius: 60px 0 0 60px;
+                        }
+                        /* Mobile styles */
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+    .listing-carousel-button.listing-carousel-button-next {
+        right: 0px;
+        width: 60px;
+    }
+}
+                        .listing-carousel-button.listing-carousel-button-prev{
+                            left: -30px;
+                            padding-left: 20px;
+                            border-radius: 0 60px 60px 0;
+                        }
+                        .listing-carousel-button.listing-carousel-button-next:hover{
+                            right: -15px;
+                            background: rgba(6,27,65,0.4);
+                        }
+                        .listing-carousel-button.listing-carousel-button-prev:hover{
+                            left: -15px;
+                            background: rgba(6,27,65,0.4);
+                        }
+                        .testi-item {
+                            transition: all .3s ease-in-out;
+                            transform: scale(0.9);
+                            opacity: 0.9;
+                        }
+                        .testimonials-text {
+                            padding: 75px 50px 75px;
+                            overflow:hidden;
+                            background: #f5f6fa;
+                            border:1ps solid #f1f1f1;
+                            border-radius: 10px;
+                            transition: all .3s ease-in-out;
+                        }
+                        .testimonials-text-after{
+                            font-style: normal;
+                            font-weight: normal;
+                            text-decoration: inherit;
+                            position: absolute;
+                            color: #ccc;
+                            opacity: .3;
+                            font-size: 35px;
+                            transition: all 400ms linear;
+                            bottom: 25px;
+                            right: 30px;
+                        }
+                        .testimonials-text-before{
+                            font-style: normal;
+                            font-weight: normal;
+                            text-decoration: inherit;
+                            position: absolute;
+                            color: #ccc;
+                            opacity: .3;
+                            font-size: 35px;
+                            transition: all 400ms linear;
+                            top: 25px;
+                            left: 30px;
+                        }
+                        .testimonials-text .listing-rating{
+                            float: none;
+                            display: inline-block;
+                            margin-bottom: 12px;
+                        }
+                        .listing-rating i{
+                            color: #007aff;
+                        }
+                        .testimonials-avatar h3{
+                            font-weight: 600;
+                            color: #7d93b2;
+                            font-size: 18px;
+                        }
+                        .testimonials-avatar h4{
+                             font-weight:400;
+                             font-size:12px;
+                             padding-top:6px;
+                             color:#007aff;
+                        }
+                        .testimonials-carousel .swiper-slide{
+                            padding: 30px 0;
+                        }	 
+                        .testi-avatar{
+                            position: absolute;
+                            left: 50%;
+                            top: -30px;
+                            width: 90px;
+                            height: 90px;
+                            margin-left: -45px;
+                            z-index: 20;
+                        }
+                        .testi-avatar img{
+                            width: 90px;
+                            height: 90px;
+                            float: left;
+                            border-radius: 100%;
+                            border:6px solid #fff;
+                            box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
+                        }
+                        .swiper-slide-active .testimonials-text {
+                            background: #fff;
+                            box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
+                        }
+                        .testimonials-text p{
+                            color: #878c9f;
+                            font-size: 14px;
+                            font-family: Georgia, "Times New Roman", Times, serif;
+                            font-style: italic;
+                            line-height: 24px;
+                            padding-bottom: 10px;
+                            font-weight: 500;
+                        }
+                        .text-link{
+                            position: absolute;
+                            bottom:0;
+                            padding: 15px 0;
+                            border-radius: 10px 10px 0 0;
+                            background: #f9f9f9;
+                            border:1px solid #eee;
+                            box-shadow: 0 10px 15px rgba(0,0,0,0.03);
+                            left: 50%;
+                            width: 200px;
+                            margin-left: -100px;
+                        }
+                        .swiper-slide-active .testi-item{
+                            opacity: 1;
+                            transform: scale(1.0);
+                        }
+                        .tc-pagination{
+                            float: left;
+                            margin-top: 10px;
+                            width: 100% !important;
+                        }
+                        .tc-pagination_wrap {
+                            position: absolute;
+                            bottom: -40px;
+                            left: 0;
+                            width: 100%;
+                        }
+                        .tc-pagination2{
+                            float: none;
+                            display: inline-block;
+                            padding: 14px 0;
+                            background: #fff;
+                            border-radius: 30px;
+                            min-width: 250px;
+                            border-bottom: 0;
+                        }
+                        .tc-pagination .swiper-pagination-bullet, .tc-pagination2.swiper-pagination-bullet{
+                            opacity: 1;
+                            background: #384f95;
+                            margin:0 2px;
+                            width: 10px;
+                            height: 10px;
+                            transition: all 300ms ease-in-out;
+                        }
+                        </style>
+                        <script>
+                          //   all ------------------
+                        function initParadoxWay() {
+                          "use strict";
+                         
+                          if ($(".testimonials-carousel").length > 0) {
+                              var j2 = new Swiper(".testimonials-carousel .swiper-container", {
+                                  preloadImages: false,
+                                  slidesPerView: 1,
+                                  spaceBetween: 20,
+                                  loop: true,
+                                  grabCursor: true,
+                                  mousewheel: false,
+                                  centeredSlides: true,
+                                  pagination: {
+                                      el: '.tc-pagination',
+                                      clickable: true,
+                                      dynamicBullets: true,
+                                  },
+                                  navigation: {
+                                      nextEl: '.listing-carousel-button-next',
+                                      prevEl: '.listing-carousel-button-prev',
+                                  },
+                                  breakpoints: {
+                                      1024: {
+                                          slidesPerView: 3,
+                                      },
+                                      
+                                  }
+                              });
+                          }
+                          
+                        // bubbles -----------------
+                          
+                          
+                          setInterval(function () {
+                              var size = randomValue(sArray);
+                              $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
+                              $('.individual-bubble').animate({
+                                  'bottom': '100%',
+                                  'opacity': '-=0.7'
+                              }, 4000, function () {
+                                  $(this).remove()
+                              });
+                          }, 350);
+                          
+                        }
+                        
+                        //   Init All ------------------
+                        $(document).ready(function () {
+                          initParadoxWay();
+                        });
+                        </script>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </main>
     <footer class="text-center text-lg-start" style="background-color:black;">
@@ -697,7 +1002,7 @@ https://templatemo.com/tm-583-festava-live
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
-        <script>
+        <!-- <script>
             // Disable right-click context menu
             document.addEventListener('contextmenu', function(e) {
                 e.preventDefault();
@@ -709,7 +1014,7 @@ https://templatemo.com/tm-583-festava-live
                     e.preventDefault();
                 }
             };
-        </script>
+        </script> -->
 
     </body>
 </html>
