@@ -117,14 +117,15 @@ https://templatemo.com/tm-583-festava-live
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                        const video = document.querySelector('.custom-video');
-                        video.play().catch((error) => {
-                            console.log('Autoplay failed:', error);
-                        });
-                    });
-                </script>
+                <button id="playButton">Play Video</button>
+<script>
+    document.getElementById('playButton').addEventListener('click', function() {
+        const video = document.querySelector('.custom-video');
+        video.play().catch((error) => {
+            console.log('Play failed:', error);
+        });
+    });
+</script>
             </section>
 
             <!--About section-->
