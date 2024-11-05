@@ -338,9 +338,169 @@ https://templatemo.com/tm-583-festava-live
             <section class="schedule-section section-padding" id="section_5">
                 <div class="container">
                     <div class="row">
-
-                        <div class="col-12 text-center">
+                    <div class="col-12 text-center">
                             <h2 class="text-black mb-4">Temple Timings</h1>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="timeline-card">
+                                                <div class="card-body">
+                                                    <div id="content">
+                                                        <ul class="timeline">
+                                                            <li class="event"   style="color: black;">
+                                                                   
+                                                                    <p>
+                                                                      <b style="color: black;">Morning</b>: <span style="color: black; font-weight:400">4:30 am to 5:20 am and 7:15 am to 1:15 pm</span><br/> <br/>
+                                                                      <b style="color: black;">Evening</b>: <span style="color: black; font-weight:400">4:15 pm to 8:00 pm</span><br/> <br/>
+                                                                      <b style="color: black;">Weekends and public holidays</b>: <span style="color: black; font-weight:400">temple is open full day (7:15 am to 8:00 pm).</span><br/> <br/>
+                                                                      <b style="color: black;">Time required for Darshan</b>: <span style="color: black;font-weight:400">1 – 2 hours.</span><br/> <br/>
+                                                                       <b style="color: black;">Dress Code</b>: <span style="color: black;font-weight:400">As a sign of respect, formal or traditional attire (avoid shorts and casual clothing).</span><br/> <br/>
+                                                                        <b style="color: black;">Entry Fee</b>: <span style="color: black;font-weight:400">Free (nominal charges for parking and footwear stand).</span>
+                                                                    </p>
+                                                                 
+                                                                  
+                                                            </li>
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <style>
+                                    .timeline {
+                                        border-left: 3px solid #727cf5;
+                                        border-right: 3px solid #727cf5; /* Add right border */
+                                        border-bottom-right-radius: 4px;
+                                        border-top-right-radius: 4px;
+                                        background: rgba(114, 124, 245, 0.09);
+                                        margin: 0 auto;
+                                        letter-spacing: 0.2px;
+                                        position: relative;
+                                        line-height: 1.4em;
+                                        font-size: 1.03em;
+                                        padding: 50px;
+                                        list-style: none;
+                                        text-align: left;
+                                        max-width: 69%;
+                                    }
+                                    .timeline-card {
+                                        background-color:rgba(255, 255, 255, 0.85);
+                                        padding: 1rem;
+                                       border-radius: 20px;
+                                       width: 100%;
+                                       margin: 0 auto;
+                                    }
+                                    
+                                    @media (max-width: 767px) {
+                                        .timeline {
+                                            max-width: 98%;
+                                            padding: 25px;
+                                        }
+                                    }
+                                    
+                                    .timeline h1 {
+                                        font-weight: 300;
+                                        font-size: 1.4em;
+                                    }
+                                    
+                                    .timeline h2,
+                                    .timeline h3 {
+                                        font-weight: 600;
+                                        font-size: 1rem;
+                                        margin-bottom: 10px;
+                                    }
+                                    
+                                    .timeline .event {
+                                        border-bottom: 1px dashed #456096;
+                                        padding-bottom: 25px;
+                                        margin-bottom: 25px;
+                                        position: relative;
+                                    }
+                                    
+                                    @media (max-width: 767px) {
+                                        .timeline .event {
+                                            padding-top: 30px;
+                                        }
+                                    }
+                                    
+                                    .timeline .event:last-of-type {
+                                        padding-bottom: 0;
+                                        margin-bottom: 0;
+                                        border: none;
+                                    }
+                                    
+                                    .timeline .event:before,
+                                    .timeline .event:after {
+                                        position: absolute;
+                                        display: block;
+                                        top: 0;
+                                    }
+                                    
+                                    .timeline .event:before {
+                                        left: -207px;
+                                        content: attr(data-date);
+                                        text-align: right;
+                                        font-weight: 100;
+                                        font-size: 0.9em;
+                                        min-width: 120px;
+                                    }
+                                    
+                                    @media (max-width: 767px) {
+                                        .timeline .event:before {
+                                            left: 0px;
+                                            text-align: left;
+                                        }
+                                    }
+                                    
+                                    .timeline .event:after {
+                                        -webkit-box-shadow: 0 0 0 3px #727cf5;
+                                        box-shadow: 0 0 0 3px #727cf5;
+                                        left: -55.8px;
+                                        background: #fff;
+                                        border-radius: 50%;
+                                        height: 9px;
+                                        width: 9px;
+                                        content: "";
+                                        top: 5px;
+                                    }
+                                    
+                                    @media (max-width: 767px) {
+                                        .timeline .event:after {
+                                            left: -31.8px;
+                                        }
+                                    }
+                                    
+                                    .rtl .timeline {
+                                        border-left: 0;
+                                        text-align: right;
+                                        border-bottom-right-radius: 0;
+                                        border-top-right-radius: 0;
+                                        border-bottom-left-radius: 4px;
+                                        border-top-left-radius: 4px;
+                                        border-right: 3px solid #727cf5;
+                                    }
+                                    
+                                    .rtl .timeline .event::before {
+                                        left: 0;
+                                        right: -170px;
+                                    }
+                                    
+                                    .rtl .timeline .event::after {
+                                        left: 0;
+                                        right: -55.8px;
+                                    }
+                                </style>
+                        </div>
+                        <div class="col-12 text-center">
+                            <h2 class="text-black mb-10">Temple Schedule</h1>
+                            <style>
+                            .mb-10 {
+                            margin-top: 1.5rem !important;
+                            margin-bottom: 1.5rem !important;
+                            }
+                            </style>
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-12">
@@ -537,29 +697,100 @@ https://templatemo.com/tm-583-festava-live
                         </div>
                     </div>
                 </div>
-                <div class="iframe-container" style="text-align: center;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.225969099668!2d77.54728322383353!3d12.893186337414988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fe8c226c80b%3A0x7bc1fff78687543!2sVaikunta%20Hill%2C%20Vasanthapura%2C%20Subramanyapura%2C%20Bengaluru%2C%20Karnataka%20560061!5e0!3m2!1sen!2sin!4v1730186616412!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <style>
-                    .iframe-container {
-                        text-align: center; /* Centering the iframe */
-                        margin: 20px auto; /* Add some vertical spacing */
-                    }
-                    iframe {
-                        width: 90%; /* Adjust the width as needed */
-                        height: 600px; /* Set the height */
-                        display: inline-block; /* Ensures the iframe is treated as a block-level element */
-                        border-radius: 20px;
-                    }
-                </style>
-                <div class="col-12 text-center">
-                    <h3 class="mb-4">
-                        <a href="https://maps.app.goo.gl/ktJ1QknvsPHCYckW6" style="text-decoration: none; color: inherit;">
-                            <i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>
-                            Find on map</a>
-                    </h3>
-                </div>
+                <div class="container10">
+                    <div class="text">
+                        <h1>Route to vaikuntha hill</h1>
+                        <p style="color: black;">There is <b> Metro train</b> connectivity (Green-line) and are many city buses available from <b> Majestic</b> (Bus stand) <b> K R Market </b> and <b> Banashankari</b> to reach Vaikuntha Hill. You have to alight at the stop – <b> Doddakallasandra</b> (Kanakapura Road) and it takes about 10 minutes to reach the temple by road and around 20 minutes by walk.</p>
+                         <!-- Find on Map Section -->
+        <a href="https://maps.app.goo.gl/1c3WUY1EBMeHZ9DQ8" target="_blank" class="find-on-map">
+            <i class="fas fa-map-marker-alt"></i> Find on Map
+        </a>
+                    </div>
+                    <div class="image">
+                        <a href="https://maps.app.goo.gl/1c3WUY1EBMeHZ9DQ8" target="_blank">
+                            <img src="./assets/images/vaikuntha-hill-route-map.jpg" alt="Example Image">
+                        </a>
+                    </div>
+                </div> 
+               <style>
+                .text .find-on-map {
+                    display: inline-flex;
+                    align-items: center;
+                    font-size: 1.1rem;
+                    color: #0066cc;
+                    text-decoration: none;
+                    margin-top: 15px;
+                    font-weight: bold;
+                    justify-content: center; /* Center the icon and text horizontally */
+                }
                 
+                .text .find-on-map:hover {
+                    color: #004d99;
+                }
+                
+                .text .find-on-map i {
+                    margin-right: 8px; /* Space between icon and text */
+                    font-size: 1.2rem; /* Icon size */
+                }
+                .container10 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                
+                .text {
+                    width: 65%; /* Text will take up 50% of the space */
+                    padding: 20px;
+                }
+                
+                .text h1 {
+                    font-size: 2rem;
+                    margin-bottom: 15px;
+                }
+                
+                .text p {
+                    font-size: 1rem;
+                    line-height: 1.6;
+                }
+                
+                .image {
+                    display: flex;
+                    justify-content: flex-end; /* Align image to the right */
+                    width: 48%; /* Image takes up 50% of the space */
+                }
+                
+                .image img {
+                    width: 90%; /* Image will occupy the full width of the .image container */
+                    height: auto;
+                    border-radius: 8px;
+                }
+                
+                /* Media Query for small screen (e.g., mobile devices) */
+                @media (max-width: 768px) {
+                    .container10 {
+                        flex-direction: column; /* Stack the text on top of the image */
+                    }
+                
+                    .text {
+                        width: 100%; /* Text takes full width */
+                        order: 1; /* Ensure text appears before the image */
+                        text-align: center; /* Center the text */
+                        margin-bottom: 20px; /* Space between text and image */
+                    }
+                
+                    .image {
+                        width: 100%; /* Image takes full width */
+                        order: 2; /* Image appears after the text */
+                        display: block; /* Remove flex styles from image */
+                        text-align: center; /* Center the image */
+                    }
+                
+                    .image img {
+                        width: 80%; /* Slightly smaller width for the image */
+                    }
+                }
+                
+               </style>
             </section>
 
             <!-- testimonials-->
@@ -579,6 +810,7 @@ https://templatemo.com/tm-583-festava-live
                                 <div class="testimonials-carousel">
                                     <div class="swiper-container">
                                         <div class="swiper-wrapper">
+                                            <!--1st-->
                                             <div class="swiper-slide">
                                                 <div class="testi-item">
                                                     <div class="testi-avatar"><img src="./assets/images/unnamed (1).png"></div>
@@ -602,8 +834,7 @@ https://templatemo.com/tm-583-festava-live
                                                     <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
                                                 </div>
                                             </div>
-                                            
-                                            <!--third-->
+                                            <!--2nd-->
                                             <div class="swiper-slide">
                                                 <div class="testi-item">
                                                     <div class="testi-avatar"><img src="./assets/images/unnamed (3).png"></div>
@@ -626,7 +857,7 @@ https://templatemo.com/tm-583-festava-live
                                                     <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
                                                 </div>
                                             </div>
-                                            <!--fourth-->
+                                            <!--3rd-->
                                             <div class="swiper-slide">
                                                 <div class="testi-item">
                                                     <div class="testi-avatar"><img src="./assets/images/unnamed (4).png"></div>
@@ -649,7 +880,7 @@ https://templatemo.com/tm-583-festava-live
                                                 </div>
                                             </div>
 
-                                            <!--Fifth-->
+                                            <!--4th-->
                                             <div class="swiper-slide">
                                                 <div class="testi-item">
                                                     <div class="testi-avatar"><img src="./assets/images/unnamed (6).png"></div>
@@ -672,7 +903,7 @@ https://templatemo.com/tm-583-festava-live
                                                 </div>
                                             </div>
 
-                                            <!--Sixth-->
+                                            <!--5th-->
                                             <div class="swiper-slide">
                                                 <div class="testi-item">
                                                     <div class="testi-avatar"><img src="./assets/images/unnamed.png"></div>
@@ -696,7 +927,8 @@ https://templatemo.com/tm-583-festava-live
                                                     <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
                                                 </div>
                                             </div>
-                                            <!--second--->
+
+                                            <!--6th--->
                                             <div class="swiper-slide">
                                                 <div class="testi-item">
                                                     <div class="testi-avatar"><img src="./assets/images/unnamed (2).png"></div>
@@ -713,6 +945,98 @@ https://templatemo.com/tm-583-festava-live
                                                         <a href="#" class="text-link"></a>
                                                         <div class="testimonials-avatar">
                                                             <h3>Harinakshi Gowda</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+
+                                             <!--7th--->
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed11.png"></div>
+                                                    <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>"In our country, ISKCON Temples are perfectly promoting Hinduism and enhancing the divinity. Noteworthy thing is that ISKCON's free meals scheme to the School children is really laudable. This ISKCON Vaikuntha Hill is one more venture of this society. Still so many structures are coming up around this temple. Very soon , this is going to become one more worth visiting Temple of Bangalore. The Temple is built in a very huge area with ample space for parking of vehicles."</p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>Venkatanarayana Rao</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+
+                                             <!--8th--->
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed (8).png"></div>
+                                                    <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>"The ISKCON Vaikunta Hill Krishna Temple which is located in Vasanthapura Bengaluru South is a magnificent spiritual sanctuary that stands out for its breathtaking architecture and deep sense of holiness. Nestled on a serene hill, the temple offers a tranquil escape from the city's stressful life. The intricate carvings and grand design of the Vigraha idol (statue) of RajaRaja Govinda reflect the dedication and devotion that went into its construction, creating an awe-inspiring atmosphere that immediately uplifts the soul."</p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>Lokesha H</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+
+                                             <!--9th--->
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed (9).png"></div>
+                                                    <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>"Our visit to ISKCON Vaikuntha Hill was a truly enchanting experience, made even more memorable by the beautiful weather and the opportunity to worship multiple deities including Lord Venkateshwara, Lord Krishna, Balarama, and Subhadra.ISKCON Vaikuntha Hill, we were greeted by the refreshing breeze and clear skies that enhanced the overall atmosphere. The temple's stunning architecture, with its intricately designed domes and vibrant colors, stood majestically against the backdrop of the picturesque landscape."</p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>Saicharan Soma</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                                                </div>
+                                            </div>
+
+                                             <!--10th--->
+                                            <div class="swiper-slide">
+                                                <div class="testi-item">
+                                                    <div class="testi-avatar"><img src="./assets/images/unnamed (10).png"></div>
+                                                    <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                                    <div class="testimonials-text">
+                                                        <div class="listing-rating">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                        </div>
+                                                        <p>"ISKCON Temple at Vaikuntha Hill is a serene and spiritually uplifting place. The temple's architecture is stunning, and the surrounding hill provides a peaceful atmosphere for meditation and reflection. The well-maintained grounds and beautiful deities enhance the spiritual experience. A must-visit for anyone seeking tranquility and devotion."</p>
+                                                        <a href="#" class="text-link"></a>
+                                                        <div class="testimonials-avatar">
+                                                            <h3>Apoorva Prakash</h3>
                                                         </div>
                                                     </div>
                                                     <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
@@ -1143,7 +1467,14 @@ https://templatemo.com/tm-583-festava-live
 
 </style>
       
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EJHFJFR7D1"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
 
+				gtag('config', 'G-EJHFJFR7D1');
+			</script>
 
 
         <!-- JAVASCRIPT FILES -->
