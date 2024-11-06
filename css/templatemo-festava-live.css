@@ -586,43 +586,25 @@ strong {
 }
 
 /* Default state: the text is visible on the image */
-.artists-hover {
-  background-color: var(--primary-color);
-  background-color: rgba(102, 102, 102, 0.056);
-  border-radius: var(--border-radius-medium);
-  backdrop-filter: blur(50px) saturate(180%);
-  margin: 20px;
-  padding: 15px;
-  transition: all 0.5s ease;
-  transform: translateY(0); /* Remove the translateY(100%) so it's always visible */
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  opacity: 1; /* Ensure opacity is 1 by default */
+.image-description {
+  text-align: center;  /* Center-align the text */
+  font-size: 19px;  /* Adjust font size */
+  color: #333;  /* Change text color */
+  margin-top: 20px;  /* Add some space between the image and description */
+}
+.img {
+  font-size: 18px;
 }
 
-.artists-hover p strong {
-  color: var(--white-color);
-  display: inline-block;
-  min-width: 180px;
-  margin-right: 20px;
-  font-size: 16px;
+/* Mobile specific styles (for phones) */
+@media (max-width: 768px) {
+  .image-description {
+    font-size: 30px;  /* Increase font size on mobile */
+  }
+  .img {
+    font-size: 25px;
+  }
 }
-
-.artists-hover p a {
-  color: var(--secondary-color);
-}
-
-.artists-hover p a:hover {
-  color: var(--white-color);
-}
-
-.artists-hover hr {
-  margin: 1.5rem 0;
-}
-
-
 
 /*---------------------------------------
   SCHEDULE              
